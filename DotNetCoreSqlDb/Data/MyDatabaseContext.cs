@@ -9,6 +9,7 @@ namespace DotNetCoreSqlDb.Models
     public class MyDatabaseContext : DbContext
     {
         public MyDatabaseContext (DbContextOptions<MyDatabaseContext> options)
+
             : base(options)
         {
         }
